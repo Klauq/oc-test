@@ -4,8 +4,8 @@ namespace KCygan\Password;
 use JKan\Component\Password\EncodingMethod;
 
 class Sha1Encoding implements EncodingMethod {
-public function encode($plainText)
+public function encode($text)
   {
-    return Sha1($plainText);
+    return Sha1($text);
   }
 }
