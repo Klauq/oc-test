@@ -4,7 +4,7 @@ namespace Tests;
 
 use Jkan\Component\Password\Encoder;
 use Jkan\Component\Password\Method\Md5Encoding;
-use KCygan\Password\ShalEncoding;
+use KCygan\Password\Sha1Encoding;
 
 class EncodingMethodTest extends \PHPUnit_Framework_TestCase
 {
